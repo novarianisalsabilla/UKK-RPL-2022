@@ -1,0 +1,47 @@
+CRITICAL - 2022-02-28 20:46:18 --> Class 'App\Controllers\Session' not found
+#0 C:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\IsiData->simpan()
+#1 C:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IsiData))
+#2 C:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk 2022\\pub...')
+#5 {main}
+CRITICAL - 2022-02-28 20:46:54 --> Call to undefined method App\Models\CatatanPerjalanan_model::getByNIK()
+#0 C:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#1 C:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#2 C:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk 2022\\pub...')
+#5 {main}
+CRITICAL - 2022-02-28 20:48:03 --> Call to undefined method App\Models\CatatanPerjalanan_model::getByNIK()
+#0 C:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#1 C:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#2 C:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk 2022\\pub...')
+#5 {main}
+CRITICAL - 2022-02-28 20:48:52 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\ukk 2022\\app...', 22, Array)
+#1 C:\ukk 2022\app\Models\CatatanPerjalanan_model.php(22): array_push(NULL, Array)
+#2 C:\ukk 2022\app\Controllers\CatatanPerjalanan.php(24): App\Models\CatatanPerjalanan_model::getByNIK('123')
+#3 C:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#4 C:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#5 C:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk 2022\\pub...')
+#8 {main}
+CRITICAL - 2022-02-28 20:57:26 --> Too few arguments to function App\Models\User_model::create(), 2 passed in C:\ukk 2022\app\Controllers\Auth.php on line 24 and exactly 3 expected
+#0 C:\ukk 2022\app\Controllers\Auth.php(24): App\Models\User_model::create('345', '123')
+#1 C:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#2 C:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk 2022\\pub...')
+#6 {main}
+CRITICAL - 2022-02-28 21:00:31 --> syntax error, unexpected 'gagal' (T_STRING), expecting ')'
+#0 C:\ukk 2022\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/register')
+#1 C:\ukk 2022\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth/register')
+#2 C:\ukk 2022\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk 2022\\pub...')
+#6 {main}
